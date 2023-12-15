@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514133881836",
+    "project_id": "projetapplicationchat",
+    "storage_bucket": "projetapplicationchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514133881836:android:72651b3cfc5097894a86c9",
+        "android_client_info": {
+          "package_name": "com.example.projet_android_ensa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx4-hthlwF-rAkRIo4M3PMrqn1dJrP6tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

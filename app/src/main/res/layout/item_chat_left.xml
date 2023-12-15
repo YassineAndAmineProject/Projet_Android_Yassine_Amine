@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:gravity="end"
+    android:background="@drawable/bg_chat_left"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="6dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salut frero"
+        android:textColor="#323223"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/tvHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12.00"
+        android:textColor="#757575"
+        android:textSize="12sp"
+        />
+</LinearLayout>

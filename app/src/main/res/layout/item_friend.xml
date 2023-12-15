@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#F5F5F5"
+    android:layout_height="65dp"
+    app:cardElevation="2dp"
+    android:layout_marginBottom="0.1dp">
+    <RelativeLayout
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivFriend"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:shapeAppearance="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+                android:src="@drawable/frmf"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:lines="1"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@id/ivFriend"/>
+        <TextView
+            android:id="@+id/tvLastMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salut mec"
+            android:textSize="14sp"
+            android:lines="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/ivFriend" />
+        <TextView
+            android:id="@+id/tvHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21:03"
+            android:textSize="14sp"
+            android:lines="1"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    
+</androidx.cardview.widget.CardView>
